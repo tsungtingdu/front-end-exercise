@@ -7,6 +7,9 @@ In 2018 January, I want to learn
 * Bootstrap 3&4
 
 ***
-Reference:
+Learning Reference:
 * https://lighthouse.alphacamp.co/
 * https://www.udemy.com/html-css-learning/learn/v4/content
+
+Readings
+* https://www.gitbook.com/book/mrliao/f2ebook/details
