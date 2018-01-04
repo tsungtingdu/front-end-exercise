@@ -30,6 +30,7 @@ body {
 }
 ol, ul {
   list-style: none;
+  padding: 0px;
 }
 blockquote, q {
   quotes: none;
@@ -150,3 +151,27 @@ table {
   border-width: 2px;
   border-style: solid;   
 }
+
+.side{
+  position: fixed;
+  left: 10px;
+  top: 100px;
+  background-color: #00ff00;
+}
+
+.sidemenu{
+  width: 50px;
+  height: 180px;
+  background-color: #FF6600; 
+}
+
+.sidemenu li{
+  color: blue;
+  text-decoration: none;
+  display: block;
+  height: 30px;
+  width:50px;
+  text-align: center;
+  line-height:30px; 
+  margin-right: 30px;  
+} 
