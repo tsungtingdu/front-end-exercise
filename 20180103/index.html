@@ -69,9 +69,29 @@
       <fieldset>
         <legend> The Form</legend>
         <h3>Name: <input type="text", placeholder="your name", name="name"></h3>
-        <h3>Email: <input type="text",  placeholder="your email" name="Email"></h3>
+        <h3>Email: <input type="text", placeholder="your email", name="Email"></h3>
+        
+        <h3>Genger</h3>
+        <input type="radio", name="gender", value="male"> Male
+        <input type="radio", name="gender", value="female"> Female
+
+        <h3>Topping</h3>
+        <input type="checkbox", name="topping", value="egg"> Egg
+        <input type="checkbox", name="topping", value="avocado"> Avocado
+        <input type="checkbox", name="topping", value="broccoli"> Broccoli
+        <br>
+
+        <h3>How Are You?
+        <select name="mood" id="mood">
+          <option value="good">Good</option>
+          <option value="justok">Just ok</option>
+          <option value="bad">Bad</option>       
+        </select>
+        </h3>
+
         <h3>Story: <input class="textarea",type="textarea",  placeholder="Write Your Story Here" name="story"> </h3>
         
+
         <button type="submit" class="pure-button pure-button-primary">Submit</button>
       </fieldset>  
     </form>
