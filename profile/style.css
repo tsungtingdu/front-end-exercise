@@ -52,7 +52,10 @@ table {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(#6c6c6c, #fff);  
+  background: linear-gradient(#f0f0f0, #fff);
+  border-bottom-color: #d0d0d0;  
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
 .logo{
@@ -60,7 +63,7 @@ table {
   height: 50px;
   width: 100px;
   margin-left: 20px;
-  background: linear-gradient(#F75000, #fff);
+  background: linear-gradient(#7B7B7B, #fff);
   text-align: center;
   line-height: 50px;
 }
@@ -89,7 +92,7 @@ table {
 .topmenu li a:hover{
   color: #000000;
   text-decoration: none;
-  background: linear-gradient(#F75000, #fff);
+  background: linear-gradient(#FF8F59, #fff);
 }
 
 .container{
