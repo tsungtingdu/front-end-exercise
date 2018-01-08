@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, span, applet, object, iframe,
+h1, h5, h6,blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, header, footer, figcaption, figure, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header{
+  background-color: #000000;
+  height: 50px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(#6c6c6c, #fff);  
+}
+
+.logo{
+  float: left;
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+  background: linear-gradient(#F75000, #fff);
+  text-align: center;
+  line-height: 50px;
+}
+.topmenu{
+  float: right;
+  margin-right: 10px;
+}
+
+.topmenu li{
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;  
+}
+
+.topmenu li a{
+  color: #000;
+  text-decoration: none;
+  display: block;
+  height: 50px;
+  width:50px;
+  text-align: center;
+  line-height:50px;  
+}
+
+.topmenu li a:hover{
+  color: #000000;
+  text-decoration: none;
+  background: linear-gradient(#F75000, #fff);
+}
+
+.container{
+  width: 1000px;
+  margin: 30px 0px 0px 0px; 
+  margin-left: auto;
+  margin-right: auto;   
+}
+
+.container h3{
+  margin-left: 50px;
+}
+.summary{
+  width: 1000px;
+}
+.about-left, .about-right{
+  float: left;
+  margin: 10px;
+  max-width: 70%;
+}
+
+.my_photo{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-style: solid;
+  border-color: #d0d0d0;
+  border-radius: 15%;
+  box-shadow: 0px 0px 10px #4F4F4F;   
+}
+
+.intro{
+  margin: 10px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.footer{
+  background-color: #000000;
+  height: 100px;
+  width: 1000px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+
