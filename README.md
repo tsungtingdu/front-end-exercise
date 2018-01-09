@@ -14,3 +14,5 @@ Learning Reference:
 
 Readings
 * https://www.gitbook.com/book/mrliao/f2ebook/details
+* https://ithelp.ithome.com.tw/articles/10196272
+* https://www.themuse.com/advice/the-35-best-personal-websites-weve-ever-seen 
