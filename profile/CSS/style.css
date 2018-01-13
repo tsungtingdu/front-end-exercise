@@ -360,3 +360,71 @@ table {
   box-shadow: 1px 1px 5px #7B7B7B;
   margin:10px;
 }
+
+.contact .container h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.contact-form {
+  width: 60%;
+  margin:10px auto;
+  text-align: center;
+}
+
+.contact-form .form-input:first-child,
+.contact-form .form-input:nth-child(2) {
+  float: left;
+  width: 45%;
+  padding: 0 15px;
+}
+
+.contact-form .form-input:nth-child(3) {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.contact-form input.form-style {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  text-transform: capitalize;
+  padding-bottom: 19px;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+.contact-form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  text-transform: capitalize;
+  outline: none;
+}
+
+.form-submit {
+  text-align: left;
+  padding: 0 15px;
+}
+
+.form-submit input {
+  font-size: 16px;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 15px 60px;
+  margin-top: 16px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  -webkit-transition: .4s linear;
+  -moz-transition: .4s linear;
+  -ms-transition: .4s linear;
+  -o-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.form-submit input:hover {
+  background-color: #000;
+  color: #fff;
+}
