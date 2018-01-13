@@ -102,9 +102,11 @@ table {
   margin-right: auto;   
 }
 
-.container h3{
-  margin-left: 50px;
+.about .container h2 {
+  text-align: center;
+  text-decoration: underline;
 }
+
 .summary{
   width: 1000px;
 }
@@ -281,4 +283,54 @@ table {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.quotes {
+  background-image: url(../bg3.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+/*  background-attachment: fixed;*/
+  position: relative;
+  width: 1000px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;  
+}
+
+.quote-inner {
+  color: #fff;
+}
+
+.quote-inner h3 {
+  text-align: left;
+  margin-left: 50px;
+  padding-top: 160px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.quote-inner p {
+  text-align: left;
+  font-size: 14px;
+  margin-left: 50px;  
+}
+
+.quote-inner a { 
+  margin-left: 50px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 11px;
+  padding: 10px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.quote-overlay {
+  background: rgba(102, 34, 0, 0.3);
+  position: relative;
+  width: 1000px;
+  height: 300px;
 }
