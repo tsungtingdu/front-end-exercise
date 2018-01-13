@@ -171,7 +171,7 @@ table {
   text-transform: capitalize;
   font-size: 54px;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .social_icons a {
@@ -191,4 +191,94 @@ table {
   position: relative;
   width: 1000px;
   height: 150px;
+}
+
+.button-group .download_cv, .button-group .hire_me {
+  display: inline-block;
+}
+
+.button-group .download_cv {
+  margin-right: 18px;
+}
+
+.button-group a {
+  display: block;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 38px;
+  background-color: #66B3FF;
+  box-shadow: 3px 3px 10px #9D9D9D;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.button-group a:hover{
+  background-color: #2828FF;
+}
+
+.my_service {
+  background: rgba(240, 240, 240, 0.3);
+  margin-top: 30px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.my_service .container h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.service_items {
+  text-align: center;
+}
+
+.service_content{
+  display: inline-block;
+  padding: 10px 5px 10px 5px;
+  margin: 10px 5px 10px 5px;
+  border-style: solid;
+  border-color: #d0d0d0;
+  border-width: 1px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #5B5B5B;
+  width: 20%;  
+}
+
+.service_content h3{
+  margin-left: 0px;
+}
+
+.service_content i {
+  font-size: 50px;
+  line-height: 46px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume .container h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.col-horizontal h3 {
+  text-align: center;
+  text-decoration: underline;
+  margin-left: 0px;
+  width: 1000px;
+}
+
+.col-item {
+  display: inline-block;
+  width: 44%;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #0000E3;
+}
+
+.col-item-container{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
