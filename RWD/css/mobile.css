@@ -1,0 +1,49 @@
+.header {
+  text-align: center;
+}
+
+.box-1 { 
+  width: 95%;
+  height: 50px;
+  background-color: #007500;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sec-1 {
+  text-align: center;
+  width: 80%
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-2 {
+  display: inline-block;
+  width: 40%;
+  height: 100px;
+  background-color: #FF5151 ;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+}
+
+.box-3 {
+  width: 95%;
+  height: 50px;
+  background-color: #02DF82;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+  .box-1 {
+    background-color:#F75000; 
+  }
+  .box-3 {
+    background-color:#F75000; 
+  }
+}

@@ -1,0 +1,36 @@
+.header {
+  text-align: center;
+}
+
+.box-1 { 
+  width: 1000px;
+  height: 50px;
+  background-color: #d0d0d0;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sec-1 {
+  text-align: center;
+}
+
+.box-2 {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  background-color: #2828FF ;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+}
+
+.box-3 {
+  width: 1000px;
+  height: 50px;
+  background-color: #02DF82;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
